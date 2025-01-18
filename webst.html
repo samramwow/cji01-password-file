@@ -50,8 +50,7 @@
         <div id="protectedContent" class="hidden">
             <!-- Place your protected content here --> 
             <h3>Protected Content</h3>
-             <a href ="https://samramwow.github.io/cji01-database/index.html">enter</a>
-        
+            <a href ="https://samramwow.github.io/cji01-database/index.html">enter.</a>
         </div>
     </div>
 
@@ -62,7 +61,7 @@
             const enteredPassword = document.getElementById('password').value;
             if (enteredPassword === correctPassword) {
                 document.getElementById('loginForm').classList.add('hidden');
-                document.getElementById('LOGIN').classList.remove('hidden');
+                document.getElementById('protectedContent').classList.remove('hidden');
             } else {
                 alert('Incorrect Password. Please try again.');
             }
